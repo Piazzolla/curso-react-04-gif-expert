@@ -23,7 +23,7 @@ export const GifExpertApp = () => {
 
             {/*   Listado de Gif    */}
                 {categories.map(category => (
-                    <GifGrid key={ category } category={ category } />
+                    <GifGrid key={ category } category={ category } aria-label='categoria'/>
                 ))}
 
 
